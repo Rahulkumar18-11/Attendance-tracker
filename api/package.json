@@ -1,0 +1,17 @@
+{
+  "name": "attendance-tracker-api",
+  "version": "1.0.0",
+  "description": "Azure Functions API for Student Attendance Tracker",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.2.0",
+    "@azure/functions": "^4.6.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.7.0"
+  }
+}
